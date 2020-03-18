@@ -21,9 +21,9 @@ $(document).ready(function(){
                 let randomIdx = Math.floor(Math.random() * numResults);
                 let $newCol = $("<div>", {class: "col-md-4 col-12 mb-4"});
                 let $newGif = $("<img>", {
-                    src: ,
-                    class: 
-                })
+                    src: res.data[randomIdx].images.original.url,
+                    class:  "w-100"
+                });
             }
         })
     })
