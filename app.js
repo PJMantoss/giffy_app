@@ -5,13 +5,16 @@ $(document).ready(function(){
     $("form").on("submit", function(e){
 
         e.preventDefault();
-        
+
         let searchTerm = $searchInput.val();
         $searchInput.val("");
 
         $.get(
             "http://api.giphy.com/v1/gifs/search",
-            {}
+            {
+                q: searchTerm,
+                api_key: "dc6zaTOxFJmzC"
+            }
         )
     })
 })
