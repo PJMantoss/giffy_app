@@ -19,7 +19,11 @@ $(document).ready(function(){
             let numResults = res.data.length;
             if(numResults){
                 let randomIdx = Math.floor(Math.random() * numResults);
-                let $newCol = $("<div>", {class: "col-md-4 col-12 mb-4"})
+                let $newCol = $("<div>", {class: "col-md-4 col-12 mb-4"});
+                let $newGif = $("<img>", {
+                    src: ,
+                    class: 
+                })
             }
         })
     })
