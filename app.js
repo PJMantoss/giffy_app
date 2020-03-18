@@ -18,7 +18,8 @@ $(document).ready(function(){
         ).then(function(res){
             let numResults = res.data.length;
             if(numResults){
-                let randomIdx = Math.floor()
+                let randomIdx = Math.floor(Math.random() * numResults);
+                let $newCol = $("<div>", {class: })
             }
         })
     })
