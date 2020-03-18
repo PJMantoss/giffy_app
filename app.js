@@ -4,5 +4,8 @@ $(document).ready(function(){
 
     $("form").on("submit", function(e){
         let searchTerm = $searchInput.val();
+        $searchInput.val("");
+
+        $.get()
     })
 })
