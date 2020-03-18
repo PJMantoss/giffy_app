@@ -15,6 +15,6 @@ $(document).ready(function(){
                 q: searchTerm,
                 api_key: "dc6zaTOxFJmzC"
             }
-        )
+        ).then(function(res){})
     })
 })
