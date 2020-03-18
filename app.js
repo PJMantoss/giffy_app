@@ -28,6 +28,10 @@ $(document).ready(function(){
                 $newCol.append($newGif);
                 $gifArea.append($newCol);
             }
-        })
+        });
+    });
+
+    $("#remove").on("click", function(){
+        $gifArea.empty();
     })
 })
