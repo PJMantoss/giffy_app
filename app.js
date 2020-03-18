@@ -15,6 +15,11 @@ $(document).ready(function(){
                 q: searchTerm,
                 api_key: "dc6zaTOxFJmzC"
             }
-        ).then(function(res){})
+        ).then(function(res){
+            let numResults = res.data.length;
+            if(numResults){
+                let randomIdx = Math.floor()
+            }
+        })
     })
 })
